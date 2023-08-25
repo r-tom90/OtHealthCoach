@@ -31,7 +31,7 @@ const TestimonialCard = ({ testimonial }: Props) => {
 export const EmblaCarousel = () => {
   const [emblaRef, emblaApi] = useEmblaCarousel();
   const [currentIndex, setCurrentIndex] = useState(0);
-  const timerRef = useRef<NodeJS.Timeout | null>(null);
+  const timerRef = useRef<number | null>(null);
 
   const startTimer = () => {
     timerRef.current = setInterval(() => {
