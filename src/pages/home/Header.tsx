@@ -3,7 +3,7 @@ import { bg1 } from "../../assets";
 const Header = () => {
   return (
     <section
-      id="/"
+      id="home"
       className="h-screen text-black bg-cover bg-center md:bg-bottom"
       style={{ backgroundImage: `url(${bg1})` }}
     >
