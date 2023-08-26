@@ -112,7 +112,7 @@ const Testimonials = () => {
   return (
     <section
       id="testimonials"
-      className="bg-[#eed0dd] h-screen sm:h-full text-white flex flex-col py-20 px-4 sm:px-8"
+      className="bg-[#eed0dd] h-screen xl:h-screen sm:h-full text-white flex flex-col py-20 px-4 sm:px-8"
     >
       <h2 className="font-bold text-3xl text-[#644f44] mb-10">Happy Clients</h2>
       <div className="sm:hidden">

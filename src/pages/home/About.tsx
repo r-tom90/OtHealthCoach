@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section
       id="about"
-      className="bg-[#a3a185] h-full text-white flex flex-col lg:flex-row py-8 px-4 sm:px-8 justify-center items-center"
+      className="bg-[#a3a185] h-full lg:h-screen text-white flex flex-col lg:flex-row py-8 px-4 sm:px-8 justify-center items-center"
     >
       <div className="lg:w-3/4 w-full mt-12">
         <h2 className="font-bold text-xl sm:text-5xl">Your OT Health Coach</h2>
