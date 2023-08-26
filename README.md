@@ -29,6 +29,14 @@ If you are developing a production application, we recommend updating the config
 Packages Used
 
 - react-helmet-async
+  Including the Helmet package is still beneficial for managing the meta tags in your React application, even though React itself does not provide built-in SEO features. While search engines can crawl and index JavaScript-rendered content, having well-defined meta tags can improve how your website appears in search engine results.
+
+The Helmet package, such as react-helmet-async, provides a convenient way to dynamically update the meta tags of your web page based on the current content. It allows you to set the title, description, and other meta tags that are important for SEO.
+
+By using Helmet, you can ensure that the appropriate meta tags are included in the HTML response sent to search engines and social media platforms when your website is shared or indexed. This helps search engines understand the content of your website and display relevant information in search results, which can improve your SEO.
+
+So, while React itself does not directly handle SEO, using Helmet or similar packages allows you to manage and optimize the meta tags for better SEO
+
 - TailwindCSS
 - TailwindCss Prettier
 - formspree

@@ -9,11 +9,11 @@ const Proposal = () => {
       h-full md:h-screen flex flex-col py-20 px-4 sm:px-8"
       style={{ backgroundImage: `url(${bg2})` }}
     >
-      <h2 className="font-bold text-xl sm:text-5xl">
+      <h2 className="font-bold text-xl sm:text-5xl mb-7 xl:ml-20 xl:mr-72">
         How We Can Work Together
       </h2>
-      <div className="flex flex-col leading-tight">
-        <p>
+      <div className="flex flex-col leading-none font-light text-base md:text-lg lg:text-2xl xl:ml-20 xl:mr-72">
+        <p className="mb-5">
           Due to the remote and international nature of Amya's work, all
           consultations with her will be online. If you are seeking her support
           for your child, Amya will work with you, equipping you with
@@ -24,7 +24,7 @@ const Proposal = () => {
           <ul className="font-bold">
             <li>{points[0].title}</li>
           </ul>
-          <ul className="">
+          <ul className="mb-5">
             {points[0].points.map((point, index) => (
               <li key={index} className="list-disc ml-7">
                 {point}
