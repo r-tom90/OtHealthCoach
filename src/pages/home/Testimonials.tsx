@@ -19,8 +19,8 @@ const TestimonialCard = ({ testimonial }: Props) => {
         <p className="">{testimonial?.quoteP1}</p>
         <p className="mt-4">{testimonial?.quoteP2}</p>
       </div>
-      <div className="border-t-2 border-black my-4 mx-2" />
-      <div>
+      {/* <div className="border-t-2 border-black my-4 mx-2" /> */}
+      <div className="border-t-2 border-black">
         <p className="mt-2 text-right text-sm">- {testimonial?.name}</p>
         <p className="text-right text-sm">{testimonial?.role}</p>
       </div>
