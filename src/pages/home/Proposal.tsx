@@ -9,7 +9,7 @@ const Proposal = () => {
       h-full md:h-screen flex flex-col py-20 px-4 sm:px-8"
       style={{ backgroundImage: `url(${bg2})` }}
     >
-      <h2 className="font-bold text-xl sm:text-5xl mb-7 xl:ml-20 xl:mr-72">
+      <h2 className="text-2xl sm:text-4xl md:text-5xl font-architects-daughter mb-7 xl:ml-20 xl:mr-72 font-light tracking-wider">
         How We Can Work Together
       </h2>
       <div className="flex flex-col leading-none font-light text-base md:text-lg lg:text-2xl xl:ml-20 xl:mr-72">

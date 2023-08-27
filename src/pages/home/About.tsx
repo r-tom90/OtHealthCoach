@@ -8,9 +8,13 @@ const About = () => {
       className="bg-[#a3a185] h-full lg:h-screen text-white flex flex-col lg:flex-row py-8 px-4 sm:px-8 justify-center items-center"
     >
       <div className="lg:w-3/4 w-full mt-12">
-        <h2 className="font-bold text-xl sm:text-5xl">Your OT Health Coach</h2>
-        <h3 className="font-semibold text-2xl italic">Steanne "Amya" Mackay</h3>
-        <p className="text-xs md:text-sm lg:text-base mb-8 md:mr-4 mr-0">
+        <h2 className="text-2xl xs:text-4xl md:text-5xl font-architects-daughter">
+          Your OT Health Coach
+        </h2>
+        <h3 className="font-semibold text-base xs:text-xl sm:text-2xl md:text-3xl font-[poppins] italic my-4">
+          Steanne "Amya" Mackay
+        </h3>
+        <p className="text-xs md:text-sm lg:text-base mb-8 md:mr-4 mr-0 font-light tracking-wider">
           Passionate about all things to do with physical health and fitness,
           the mind and trauma, and how the mind, body, and soul come together,
           Amya has pursued a path that encompasses all of these things.

@@ -9,7 +9,11 @@ export default {
       xm: "425px",
       ...defaultTheme.screens,
     },
-    extend: {},
+    extend: {
+      fontFamily: {
+        "architects-daughter": ['"Architects Daughter"', "cursive"],
+      },
+    },
   },
   plugins: ["prettier-plugin-tailwindcss"],
 };
