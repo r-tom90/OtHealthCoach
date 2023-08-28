@@ -12,6 +12,7 @@ export default {
     extend: {
       fontFamily: {
         "architects-daughter": ['"Architects Daughter"', "cursive"],
+        playfair: ["Playfair Display", "serif"],
       },
     },
   },

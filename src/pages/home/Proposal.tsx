@@ -12,7 +12,7 @@ const Proposal = () => {
       <h2 className="text-2xl sm:text-4xl md:text-5xl font-architects-daughter mb-7 xl:ml-20 xl:mr-72 font-light tracking-wider">
         How We Can Work Together
       </h2>
-      <div className="flex flex-col leading-none font-light text-base md:text-lg lg:text-2xl xl:ml-20 xl:mr-72">
+      <div className="flex flex-col leading-none font-light text-base md:text-lg lg:text-xl xl:ml-20 xl:mr-72">
         <p className="mb-5">
           Due to the remote and international nature of Amya's work, all
           consultations with her will be online. If you are seeking her support

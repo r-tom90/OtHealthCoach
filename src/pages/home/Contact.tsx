@@ -11,7 +11,7 @@ const Contact = () => {
       <h2 className="text-2xl sm:text-4xl md:text-5xl font-architects-daughter mb-4">
         Get In Touch
       </h2>
-      <div className="leading-tight text-base md:text-lg lg:text-2xl font-light tracking-wider">
+      <div className="leading-tight text-base md:text-lg lg:text-xl font-light tracking-wider">
         <p>
           Consultations are currently only available on{" "}
           <span className="font-bold">Saturdays,</span>

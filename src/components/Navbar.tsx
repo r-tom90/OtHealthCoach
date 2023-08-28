@@ -89,7 +89,7 @@ const Navbar = () => {
                   <a
                     key={index}
                     href={href}
-                    className="text-white hover:bg-[#a3a185]/80 px-3 py-2 rounded-md text-sm font-medium"
+                    className="text-white hover:bg-[#a3a185]/80 px-3 py-2 rounded-md text-sm lg:text-base font-medium"
                   >
                     {name}
                   </a>

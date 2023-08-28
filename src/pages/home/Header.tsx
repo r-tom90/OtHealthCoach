@@ -16,7 +16,7 @@ const Header = () => {
             Children's Occupational Therapist, Play Therapist, Health Coach
           </p>
 
-          <p className="text-sm md:text-lg w-full xl:w-1/2 mt-4 font-light tracking-wider">
+          <p className="text-sm md:text-lg w-full xl:w-1/2 mt-4 font-playfair tracking-wider">
             A holistic approach to supporting children and families to live
             their healthiest and most joy-filled lives. We focus on nutrition,
             physical development, emotional and mental well-being, and
