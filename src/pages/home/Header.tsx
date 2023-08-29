@@ -4,7 +4,7 @@ const Header = () => {
   return (
     <section
       id="home"
-      className="h-screen text-black bg-cover bg-center md:bg-bottom"
+      className="h-screen bg-cover text-black bg-center md:bg-bottom"
       style={{ backgroundImage: `url(${bg1})` }}
     >
       <div className="flex flex-col justify-center items-center px-4 sm:px-8">
