@@ -43,3 +43,5 @@ So, while React itself does not directly handle SEO, using Helmet or similar pac
 - React Icons
 - Embla Carousel
 - [Improving SEO on react](https://www.youtube.com/watch?v=wWeG8rWkMsM)
+
+[SEO checker](https://www.ionos.com/website-checker-result#menu-PRESENTATION)
