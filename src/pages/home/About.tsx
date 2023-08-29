@@ -59,7 +59,7 @@ const About = () => {
         />
         <div className="flex flex-col italic mt-4 ml-0">
           {education.map(({ degree, school, year }, index) => (
-            <div key={index}>
+            <div key={index} className="lg:mx-4 xl:mx-16">
               <p className="font-bold ">{degree}</p>
               <p className="">
                 {school} {year}

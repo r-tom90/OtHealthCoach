@@ -27,7 +27,6 @@ export const points = [
     points: [
       "Nutrition for optimal development, and overall well-being and behaviour.",
       "Physical development - motor skills.",
-      "Self-care challenges.",
       `Making sense of your child's emotions and behaviours, and strengthening the parent-child bond.`,
       `Teen girls - facilitating a healthy relationship with their bodies, food and exercise, respectful relationships, and self-belief/sense of self.`,
     ],
