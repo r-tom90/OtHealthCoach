@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { logo } from "../assets";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -79,17 +80,16 @@ const Navbar = () => {
           </div>
           <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
             <div className="flex-shrink-0 flex items-center">
-              {/* //TODO: Your logo or brand */}
-              {/* <span className="text-white">Logo</span> */}
+              <img src={logo} alt="logo" className="h-16 w-16" />
             </div>
-            <div className="hidden sm:block sm:ml-6">
-              <div className="flex space-x-4">
+            <div className="hidden sm:block sm:ml-6 sm:w-full xl:w-[700px] my-auto">
+              <div className="flex sm:space-x-4 lg:space-x-8">
                 {/* Your navigation links */}
                 {links.map(({ name, href }, index) => (
                   <a
                     key={index}
                     href={href}
-                    className="text-white hover:bg-[#a3a185]/80 px-3 py-2 rounded-md text-sm lg:text-base font-medium"
+                    className="text-white hover:bg-[#a3a185]/80 px-3 lg:px-5 py-2 rounded-md text-sm lg:text-base font-medium"
                   >
                     {name}
                   </a>
