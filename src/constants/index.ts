@@ -45,21 +45,21 @@ export const testimonials = [
   {
     name: "T.M",
     role: "Windermere Client Support Coordinator",
-    quoteP1: `"You are without a doubt, the best OT I have ever worked with.`,
-    quoteP2: `The boys are so lucky to have you and you will always be someone who played such an important aspect in their lives."`,
+    description: `"You are without a doubt, the best OT I have ever worked with.
+    \n\nThe boys are so lucky to have you and you will always be someone who played such an important aspect in their lives."`,
   },
   {
     name: "C.C",
-    quoteP1: `"We wished to update you on E's progress. He has come such a long since working with you and we are so happy to see how he does things with ease that were once a nightmare for him.`,
-    quoteP2: `His transition to his first year at school has been smooth because of all the work you did together. We are so grateful."`,
+    description: `"We wished to update you on E's progress. He has come such a long since working with you and we are so happy to see how he does things with ease that were once a nightmare for him.
+    \n\nHis transition to his first year at school has been smooth because of all the work you did together. We are so grateful."`,
   },
   {
     name: "J.M",
-    quoteP1: `"I shed a couple of tears reading through my wellness plan because I know that for once in my life, I am in exceptionally good hands.`,
-    quoteP2: `You are so efficient and heavily client-focused, you make me feel seen and heard. It is very rare to to find coaches like you, anyone would be crazy not to have you as their coach."`,
+    description: `"I shed a couple of tears reading through my wellness plan because I know that for once in my life, I am in exceptionally good hands.
+    \n\nYou are so efficient and heavily client-focused, you make me feel seen and heard. It is very rare to to find coaches like you, anyone would be crazy not to have you as their coach."`,
   },
   {
     name: "L.R",
-    quoteP1: `"Thank you, you have been amazing in this journey. Helping me to accept the person in the mirror, to never feel guilty for what I eat and truly listening to my body and what it wants. You are amazing and I am so grateful to have you as my health coach."`,
+    description: `"Thank you, you have been amazing in this journey. Helping me to accept the person in the mirror, to never feel guilty for what I eat and truly listening to my body and what it wants. You are amazing and I am so grateful to have you as my health coach."`,
   },
 ];

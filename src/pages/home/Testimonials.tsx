@@ -5,8 +5,7 @@ import { testimonials } from "../../constants";
 
 interface Props {
   testimonial?: {
-    quoteP1?: string;
-    quoteP2?: string;
+    description?: string;
     name?: string;
     role?: string;
   };
@@ -14,12 +13,14 @@ interface Props {
 
 const TestimonialCard = ({ testimonial }: Props) => {
   return (
-    <div className="border p-3 text-black border-black w-[264px] xs:w-[290px] h-[370px] text-base flex flex-col justify-between mx-3 xs:mx-7 xm:mx-14 md:mx-0 font-light">
+    <div className="border p-3 text-black border-black w-[270px] xs:w-[290px] h-[320px] text-base flex flex-col justify-between mx-auto font-light">
       <div className="flex flex-col mx-1 mt-1">
-        <p className="">{testimonial?.quoteP1}</p>
-        <p className="mt-4">{testimonial?.quoteP2}</p>
+        {testimonial?.description?.split("\n\n").map((paragraph, index) => (
+          <p key={index} className="mb-4 leading-tight">
+            {paragraph}
+          </p>
+        ))}
       </div>
-      {/* <div className="border-t-2 border-black my-4 mx-2" /> */}
       <div className="border-t-2 border-black">
         <p className="mt-2 text-right text-sm">- {testimonial?.name}</p>
         <p className="text-right text-sm">{testimonial?.role}</p>
