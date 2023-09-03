@@ -42,6 +42,7 @@ So, while React itself does not directly handle SEO, using Helmet or similar pac
 - formspree
 - React Icons
 - Embla Carousel
+- [Swiper](https://swiperjs.com/react)
 - [NextUI](https://nextui.org/)
 - [SwiperJs](https://swiperjs.com/)
 - [Improving SEO on react](https://www.youtube.com/watch?v=wWeG8rWkMsM)

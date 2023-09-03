@@ -61,7 +61,7 @@ const ContactForm = () => {
       <button
         type="submit"
         disabled={state.submitting}
-        className="w-full px-4 py-2 font-semibold text-white bg-[#a3a185]/90 rounded-md hover:bg-[#a3a185] focus:outline-none focus:ring-2 focus:ring-white"
+        className="w-full px-4 py-2 font-semibold text-white bg-[#a3a185]/90 rounded-md hover:ease-in duration-300 hover:bg-[#a3a185] focus:outline-none focus:ring-2 focus:ring-white"
       >
         Submit
       </button>

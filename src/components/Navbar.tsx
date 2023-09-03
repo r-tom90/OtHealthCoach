@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { logo } from "../assets";
+// import { Link, NavLink } from "react-router-dom";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -15,23 +16,23 @@ const Navbar = () => {
   const links = [
     {
       name: "Home",
-      href: "#home",
+      href: "/#home",
     },
     {
       name: "About",
-      href: "#about",
+      href: "/#about",
     },
     {
       name: "Proposal",
-      href: "#proposal",
+      href: "/#proposal",
     },
     {
       name: "Testimonials",
-      href: "#testimonials",
+      href: "/#testimonials",
     },
     {
       name: "Contact",
-      href: "#contact",
+      href: "/#contact",
     },
   ];
 
@@ -82,19 +83,27 @@ const Navbar = () => {
             <div className="flex-shrink-0 flex items-center">
               <img src={logo} alt="logo" className="h-16 w-16" />
             </div>
-            <div className="hidden sm:block sm:ml-6 sm:w-full xl:w-[700px] my-auto">
+            <div className="hidden sm:flex justify-between sm:ml-6 sm:w-full my-auto">
               <div className="flex sm:space-x-4 lg:space-x-8">
                 {/* Your navigation links */}
                 {links.map(({ name, href }, index) => (
                   <a
                     key={index}
                     href={href}
-                    className="text-white hover:bg-[#a3a185]/80 px-3 lg:px-5 py-2 rounded-md text-sm lg:text-base font-medium"
+                    className="text-white hover:bg-[#a3a185]/80 hover:ease-in duration-300 px-3 lg:px-5 py-2 rounded-md text-sm lg:text-base font-medium active:text-black"
                   >
                     {name}
                   </a>
                 ))}
               </div>
+              {/* <button>
+                <NavLink
+                  to="/booking"
+                  className="text-[#644f44] bg-white hover:text-white hover:bg-[#a3a185]/80 hover:ease-in duration-300 px-3 lg:px-5 py-2 rounded-md text-sm lg:text-base font-medium"
+                >
+                  Book Now
+                </NavLink>
+              </button> */}
             </div>
           </div>
         </div>
@@ -109,11 +118,20 @@ const Navbar = () => {
               key={index}
               href={href}
               onClick={handleLinkClick}
-              className="text-white hover:bg-[#a3a185] block px-3 py-2 rounded-md text-base font-medium"
+              className="text-white hover:bg-[#a3a185] block px-3 py-2 rounded-md text-base font-medium hover:ease-in duration-300 "
             >
               {name}
             </a>
           ))}
+          {/* <button>
+            <Link
+              to="/booking"
+              onClick={handleLinkClick}
+              className="w-auto text-[#644f44] bg-white hover:bg-[#a3a185] hover:text-white block px-3 py-2 rounded-md text-base font-medium hover:ease-in duration-300"
+            >
+              Book Now
+            </Link>
+          </button> */}
         </div>
       </div>
     </nav>
