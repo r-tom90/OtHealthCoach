@@ -4,8 +4,6 @@ import Home from "./pages/Home/Home";
 import Booking from "./pages/Booking";
 
 function App() {
-  // const [count, setCount] = useState(0)
-
   return (
     <main>
       <Navbar />
