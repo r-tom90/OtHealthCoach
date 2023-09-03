@@ -4,4 +4,6 @@ import Proposal from "./Proposal";
 import Testimonials from "./Testimonials";
 import Contact from "./Contact";
 
-export { Header, About, Proposal, Testimonials, Contact };
+import Home from "./Home";
+
+export { Home, Header, About, Proposal, Testimonials, Contact };
